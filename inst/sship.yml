@@ -1,0 +1,52 @@
+file:
+  encrypt:
+    suffix: .enc
+
+network:
+  proxy:
+    http:
+    http_port:
+    https:
+    https_port:
+  smtp:
+    server: localhost
+    port: 2525
+    sender: sship@sship.no
+
+pubkey:
+  holder:
+    github:
+      url: https://github.com
+      pid:
+        prefix:
+        suffix: .keys
+    local:
+      host: 127.0.0.1
+      port: 4321
+      url: http://127.0.0.1:4321
+      pid:
+        prefix: test.
+        suffix: .keys
+    file:
+      path: testkey.pub
+
+# Recipients Bob and Alice only to be used for testing
+recipient:
+  bob:
+    ftp:
+      host: 127.0.0.1
+      port: 21
+      path: test/sship
+      user: bob
+      pass: bobbob
+    sftp:
+      host: 127.0.0.1
+      port: 22
+      path: test/sship
+      user: bob
+      pass: bobbob
+      ssh_public_keyfile: id_rsa.pub
+      ssh_private_keyfile: id_rsa
+      keypasswd: bobbob
+  alice:
+    email: alice@sship.no
