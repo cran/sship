@@ -1,6 +1,6 @@
 Package: sship
 Title: Tool for Secure Shipment of Content
-Version: 0.7.3
+Version: 0.7.4
 Authors@R: 
     person(given = "Are",
            family = "Edvardsen",
@@ -19,12 +19,12 @@ Description: Convenient tools for exchanging files securely from within R. By
 License: GPL-3
 Encoding: UTF-8
 Imports: httr, jsonlite, openssl, RCurl, yaml
-Suggests: httpuv, rmarkdown, testthat (>= 2.1.0)
+Suggests: httptest, httpuv, rmarkdown, testthat (>= 2.1.0)
 RoxygenNote: 7.1.2
 URL: https://github.com/Rapporteket/sship
 BugReports: https://github.com/Rapporteket/sship/issues
 NeedsCompilation: no
-Packaged: 2021-11-25 07:19:50 UTC; rstudio
+Packaged: 2022-01-28 13:14:06 UTC; rstudio
 Author: Are Edvardsen [aut, cre] (<https://orcid.org/0000-0002-5210-3656>)
 Repository: CRAN
-Date/Publication: 2021-11-25 07:30:02 UTC
+Date/Publication: 2022-01-31 07:50:02 UTC
