@@ -1,3 +1,8 @@
+# sship 0.9.0
+
+* new internal functions for standard symmetric encryption and decryption
+* minor improvements to the [site documentation](https://rapporteket.github.io/sship/)
+
 # sship 0.8.0
 
 * allow authorized requests to the github api opening for re-use of functions in [rapbase](https://github.com/Rapporteket/rapbase) ([#37](https://github.com/Rapporteket/sship/pull/37)) 
